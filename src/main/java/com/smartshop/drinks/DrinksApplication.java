@@ -18,7 +18,7 @@ public class DrinksApplication {
 		
 	@RequestMapping("/")
 	String home(){
-		return "Today is a good day";
+		return "Today is a good day. what do you want to drink ? , qué quieres beber";
 	}
 	  
 	@GetMapping("/drinks")
