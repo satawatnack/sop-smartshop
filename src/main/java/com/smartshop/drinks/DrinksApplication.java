@@ -34,9 +34,9 @@ public class DrinksApplication {
 	@PostMapping("/addDrink")
     	public String create(@RequestBody Map<String, String> body){
 		String name = body.get("name");
-        double price = Double.parseDouble(body.get("price"));
-        String detail = body.get("detail");
-        return drinkService.addDrink(name, price, detail);
+        	double price = Double.parseDouble(body.get("price"));
+       		String detail = body.get("detail");
+        	return drinkService.addDrink(name, price, detail);
     }
 	
 	public static void main(String[] args) {
