@@ -32,7 +32,7 @@ public class DrinksApplication {
 	}
 	
 	@PostMapping("/addDrink")
-    public String create(@RequestBody Map<String, String> body){
+    	public String create(@RequestBody Map<String, String> body){
 		String name = body.get("name");
         double price = Double.parseDouble(body.get("price"));
         String detail = body.get("detail");
