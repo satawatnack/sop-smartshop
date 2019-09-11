@@ -18,7 +18,7 @@ ex.<br/>
     "id": 7.0,<br/>
     "name": "Johnnie Walker - Black Label 12 Year Old",<br/>
     "price": 28.19,<br/>
-    "detail": "The colour black has always been associated with style and elegance."
+    "detail": "The colour black has always been associated with style and elegance."<br/>
 }
 
 ```
