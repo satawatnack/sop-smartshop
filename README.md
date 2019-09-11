@@ -15,9 +15,9 @@ http://localhost:8080/buy/1.0
 
 ex.<br/>
 { <br/>
-    "id": 7.0,
-    "name": "Johnnie Walker - Black Label 12 Year Old",
-    "price": 28.19,
+    "id": 7.0,<br/>
+    "name": "Johnnie Walker - Black Label 12 Year Old",<br/>
+    "price": 28.19,<br/>
     "detail": "The colour black has always been associated with style and elegance."
 }
 
